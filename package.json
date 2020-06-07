@@ -1,6 +1,6 @@
 {
   "name": "jwx-1",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "CLI test - jwx-1",
   "main": "lib/index.js",
   "files": [
@@ -8,7 +8,8 @@
     "bin"
   ],
   "bin": {
-    "jwx-1": "./bin/jwx-1.js"
+    "jwx-1": "./bin/jwx-1.js",
+    "jwx-": "./bin/jwx-1.js"
   },
   "scripts": {
     "build": "rollup -c"
