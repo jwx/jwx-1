@@ -10,7 +10,7 @@ try {
 }
 
 const { version } = require('../package.json');
-console.log(`jwx-1 v${version}\n`);
+console.log(`jwx-cli1 v${version}\n`);
 
 jwx1().catch(error => {
     console.error(error);

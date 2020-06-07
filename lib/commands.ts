@@ -13,13 +13,13 @@ export default {
     },
     localize: {
         cmd: 'npm',
-        args: ['install', '--save-dev', 'jwx-1'],
+        args: ['install', '--save-dev', 'jwx-cli1'],
         passThroughArgs: false,
         requiresProject: true,
     },
     globalize: {
         cmd: 'npm',
-        args: ['install', '-g', '--force', 'jwx-1'],
+        args: ['install', '-g', '--force', 'jwx-cli1'],
         passThroughArgs: false,
         requiresProject: false,
     },
