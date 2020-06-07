@@ -19,7 +19,7 @@ export default {
     },
     globalize: {
         cmd: 'npm',
-        args: ['install', '-g', 'jwx-1'],
+        args: ['install', '-g', '--force', 'jwx-1'],
         passThroughArgs: false,
         requiresProject: false,
     },
