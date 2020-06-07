@@ -5,7 +5,7 @@ import Helps from './helps';
 export default function (command, args) {
     const commands = makeHelps(Commands, ScriptCommands(), Helps);
 
-    console.log('Aurelia 2 CLI');
+    console.log('Aurelia 1 CLI');
 
     if (args && args.length) {
         const cmd = args[0];

@@ -1,6 +1,6 @@
 export default {
     "new": {
-        description: "Creates a new Aurelia 2 app. It uses makes [https://makes.js.org] for scaffolding.",
+        description: "Creates a new Aurelia 1 app. It uses makes [https://makes.js.org] for scaffolding.",
         args: [
             { '<app-name>': "Name of your app (and folder)", },
             { 'shortcut list': "A long list of short cuts which will be presented after first run" },
